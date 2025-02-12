@@ -116,6 +116,7 @@ For more details about my work and publications, explore my site or visit my [Go
 
 - Developed a **low-cost navigation system** using **Ublox GPS, 6-DoF IMU, and a monocular camera**.
 - Implemented an **adaptive Kalman filter for high-accuracy localization**.
+- Seamlessly developed several **core modules on MATLAB, then generated C code and integrated them into ROS framework**.
 
 ### Smart Mobility - Auto Parking and Memorized Parking (2023 - Present)
 
