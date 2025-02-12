@@ -55,13 +55,13 @@ At **VinAI**, I specialize in developing and implementing advanced algorithms fo
 **Jun 2022 - Nov 2022** | **Cheongju, South Korea** | **On-site**
 
 - Brain Korea and Project Postdoc
-- Research on **SLAM, Machine Learning**, and related areas
+- Research on **SLAM, Optimization, Optimal Control System**, and related areas
 
 ### **Scientific Researcher - Chungbuk National University**
 
 **Mar 2018 - Feb 2022** | **Cheongju, South Korea**
 
-- Research on **Model Predictive Control, SLAM**, and other advanced topics
+- Research on **SLAM, Motion Planning Control**, and other advanced topics
 
 ### **Faculty Lecturer - Vinh University**
 
