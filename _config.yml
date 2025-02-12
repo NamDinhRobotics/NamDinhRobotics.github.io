@@ -22,7 +22,7 @@ repository               : "namdinhrobotics/namdinhrobotics.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profilpicture.jpg"
   name             : "Van-Nam Dinh"
   pronouns         : "🇻🇳 he/his"
   bio              : "Ph.D. in Control and Robot Engineering - Senior Robotics Engineer"
