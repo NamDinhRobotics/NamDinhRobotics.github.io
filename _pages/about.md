@@ -10,7 +10,7 @@ redirect\_from:
 
 ---
 
-This is the front page of my personal engineer and academic website. I am an engineer and researcher specializing in Robotics, SLAM, and Motion Planning, currently working as the **Lead of Motion Planning Control** at **VinAI**. You can visit my professional page [here](https://sites.google.com/view/dinhnam).
+This is the front page of my personal engineer and academic website. I am an engineer and researcher specializing in Robotics, SLAM, and Motion Planning, currently working as the **Lead of Motion Planning Control** at **[VinAI](https://www.vinai.io/)**. You can visit my professional page [here](https://sites.google.com/view/dinhnam).
 
 # About Me
 
@@ -31,8 +31,8 @@ My research spans multiple domains in robotics, optimization, and artificial int
   - Fast Motion Planning and Path Planning for Robot Navigation
   - Factor Graph-Based Optimal Control, Nonlinear Model Predictive Control
 - **AI Robotics**
-  - AI-based Differentiable State Estimation
-  - Machine Learning for Intelligent Perception
+  - Intelligent Perception, Monocular 3D Reconstruction, Gaussian Splatting
+  - Intelligent Perception
 
 # Experience
 
