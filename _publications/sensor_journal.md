@@ -1,7 +1,7 @@
 ---
 title: "Online Self-Calibration of Multiple 2D LiDARs Using Line Features With Fuzzy Adaptive Covariance"
 collection: publications
-category: journals
+category: articles
 permalink: /publication/2021-06-15-lidar-self-calibration
 excerpt: 'This paper proposes an automatic self-calibration framework for multiple low-cost 2D LiDARs using line features and fuzzy adaptive covariance.'
 date: 2021-06-15
