@@ -128,6 +128,6 @@ For more details about my work and publications, explore my site or visit my [Go
 - Led research on an **affordable, scalable autonomous car-like robot**.
 - Developed **Visual-inertial-3D LiDAR SLAM, fast exploration motion planning, and high-accuracy 3D localization & mapping**.
 - Advanced **perception and control techniques** for autonomous navigation.
-- Expend to urban 3D reconstruction and monitoring system using swarm UGV án UAV decentralization
+- Expand to urban 3D reconstruction and monitoring system using swarm UGV and UAV decentralization
 - [Watch Video](https://youtube.com/shorts/lfxtb6E9Zx0?si=7Fbp6vOOAHdWkSjM)
 - [View Slide](https://www.canva.com/design/DAGcIi4fgcs/YOa-LTS-SVAfTU2JJwCmCg/edit?utm_content=DAGcIi4fgcs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
