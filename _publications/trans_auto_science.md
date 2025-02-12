@@ -5,9 +5,13 @@ category: articles
 permalink: /publication/2024-02-17-learning-type2-fuzzy-logic
 excerpt: 'This paper presents a novel approach using type-2 fuzzy logic in factor graph optimization for robust multi-sensor fusion-based pose estimation.'
 date: 2024-02-17
-venue: 'International Conference on Autonomous Systems'
-paperurl: 'https://ieeexplore.ieee.org/abstract/document/10032628'
-citation: 'Dinh Van Nam, (2024). "Learning Type-2 Fuzzy Logic for Factor Graph-Based Robust Pose Estimation with Multi-Sensor Fusion." <i>International Conference on Autonomous Systems</i>. 1(1).' 
+venue: 'IEEE Transactions on Intelligent Transportation Systems (Volume: 24, Issue: 4, April 2023)'
+paperurl: 'https://doi.org/10.1109/TITS.2023.3234595'
+citation: 'Dinh Van Nam, (2023). "Learning Type-2 Fuzzy Logic for Factor Graph-Based Robust Pose Estimation with Multi-Sensor Fusion." <i>IEEE Transactions on Intelligent Transportation Systems</i>, 24(4), pp. 3809-3821, DOI: 10.1109/TITS.2023.3234595.' 
+issn: 'ISSN Information: IEEE'
+publisher: 'IEEE'
+date_of_publication: '31 January 2023'
+pages: '3809 - 3821'
 ---
 
 ### Abstract
