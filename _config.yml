@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Van-Nam Dinh / Robotics"
+title                    : "Van-Nam Dinh"
 title_separator          : "-"
 name                     : &title
 description              : &description "personal description"
