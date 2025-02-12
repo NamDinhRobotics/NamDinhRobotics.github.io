@@ -1,7 +1,7 @@
 ---
 
 permalink: /
-title: "Van-Nam Dinh - Robotics, SLAM, and Motion Planning Control Researcher"
+title: "Van-Nam Dinh - Robotics Researcher"
 author_profile: true
 redirect_from:
 
