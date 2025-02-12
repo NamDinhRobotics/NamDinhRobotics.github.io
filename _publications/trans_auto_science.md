@@ -1,24 +1,26 @@
 ---
 title: "Learning Type-2 Fuzzy Logic for Factor Graph-Based Robust Pose Estimation with Multi-Sensor Fusion"
 collection: publications
-category: articles
+category: conferences
 permalink: /publication/2024-02-17-learning-type2-fuzzy-logic
 excerpt: 'This paper presents a novel approach using type-2 fuzzy logic in factor graph optimization for robust multi-sensor fusion-based pose estimation.'
 date: 2024-02-17
 venue: 'International Conference on Autonomous Systems'
-paperurl: 'https://yourwebsite.com/files/type2_fuzzy_factor_graph.pdf'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/10032628'
 citation: 'Dinh Van Nam, (2024). "Learning Type-2 Fuzzy Logic for Factor Graph-Based Robust Pose Estimation with Multi-Sensor Fusion." <i>International Conference on Autonomous Systems</i>. 1(1).' 
 ---
 
-This paper presents an innovative approach utilizing **type-2 fuzzy logic** to enhance **factor graph-based pose estimation** with **multi-sensor fusion**. Traditional factor graph optimization techniques face challenges in handling **uncertainty** and **non-linearity**, especially in **dynamic and unstructured environments**.
+### Abstract
+Although a wide variety of high-performance state estimation techniques have been introduced recently, the robustness and extension to actual conditions of the estimation systems have been challenging. This paper presents a robust adaptive state estimation framework based on the **Type-2 fuzzy inference system (FIS)** and **factor graph optimization** for autonomous mobile robots. 
 
-The proposed **type-2 fuzzy logic framework** models **uncertainty** more effectively by adapting **fuzzy membership functions** within factor graph constraints, leading to **improved robustness** in pose estimation. Our approach leverages **multi-sensor fusion**, integrating data from **LiDAR, IMU, cameras, and GNSS**, ensuring accurate and resilient localization for **autonomous navigation**.
+We use a **hybrid solution** to connect the advantages of both **tightly and loosely coupled techniques** by incorporating an **inertial sensor** with other extrinsic sensors such as **LiDARs and cameras**. To tackle **uncertain input covariance** and **sensor failure issues**, we introduce a **learnable observation model** that integrates **Type-2 FIS** with **factor graph optimization**. In particular, the **Type-2 Takagi-Sugeno FIS** is used to model uncertainty via **particle swarm optimization (PSO)** before incorporating the observation model into the **factor graph**.
 
-Key contributions:
-- Development of a **type-2 fuzzy logic-based optimization strategy** for factor graph models.
-- Improved robustness against **sensor noise and environmental uncertainty**.
-- Comprehensive evaluation on **real-world datasets** and comparison with **state-of-the-art methods**.
+The proposed design consists of four key components:
+1. **Sensor odometry**
+2. **Up-sampling**
+3. **FIS-based learning observation model**
+4. **Factor graph-based smoothing**
 
-The proposed system achieves **state-of-the-art performance**, outperforming existing techniques in **challenging scenarios**. Extensive **simulations and real-world experiments** validate the effectiveness of our approach.
+We evaluate our system using a **mobile robot platform** equipped with multiple **stereo cameras, an IMU, and a LiDAR sensor**. To **learn the observation model** of visual-inertial estimators, we simulate **LiDAR odometry in structured environments** without the need for bulky **motion capture systems**. Experimental results conducted in **real-world environments** demonstrate the **accuracy and robustness** of the proposed algorithm.
 
 For further details, refer to the full paper linked above.
