@@ -1,7 +1,7 @@
 ---
 title: "Learning Type-2 Fuzzy Logic for Factor Graph-Based Robust Pose Estimation with Multi-Sensor Fusion"
 collection: publications
-category: conferences
+category: articles
 permalink: /publication/2024-02-17-learning-type2-fuzzy-logic
 excerpt: 'This paper presents a novel approach using type-2 fuzzy logic in factor graph optimization for robust multi-sensor fusion-based pose estimation.'
 date: 2024-02-17
