@@ -1,49 +1,45 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Dinh Nam - Robotics, SLAM, and Motion Planning Researcher"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+This is the front page of my personal academic website. I am a researcher specializing in Robotics, SLAM, and Motion Planning, currently working as the **Lead of Motion Planning Control** at **VinAI**. You can visit my professional page [here](https://sites.google.com/view/dinhnam).
 
-A data-driven personal website
+About Me
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I was a **Brain Korea postdoctoral researcher**, leading the **sensor fusion for agricultural robots**, in collaboration with **PINE S&S in South Korea in 2022**. Additionally, I was part of the **Clothoid team**, which ranked **fifth in the Hyundai self-driving competition in 2019** in South Korea. I have contributed to numerous projects in **robot navigation systems for industrial robots and autonomous vehicles**.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+I obtained my **Ph.D. in Control and Robot Engineering** from **Chungbuk National University, South Korea, in 2022**. Since **2013**, I have been a **lecturer at Vinh University, Vietnam**. Before that, I earned my **B.E. degree in Control and Automation Engineering** from **Hanoi University of Science and Technology (HUST), Vietnam, in 2012**.
 
-Getting started
+### Research Interests
+My research spans multiple domains in robotics, optimization, and artificial intelligence, including:
+- **Simultaneous Localization and Mapping (SLAM)**
+- **Visual-Inertial Navigation Systems (VINS), Multi-Visual SLAM, Multi-Visual-LiDAR-Inertial SLAM**
+- **Multi-Robot SLAM and Navigation**
+- **Fast Global Optimization for SLAM, Motion Planning**
+- **Computer Vision and Machine Learning**
+- **Embedded and Learning-Based Control Systems**
+
+Current Work
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+### **Lead Motion Planning Control at VinAI**
+**Nov 2022 - Present** | **Hanoi, Vietnam** | **Hybrid Work**
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+At **VinAI**, I specialize in developing and implementing advanced algorithms for **autonomous parking and valet parking systems**, focusing on cutting-edge research in **localization and mapping technologies**. My key responsibilities include:
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+- **Motion Planning**: Designing precise and efficient **path planning** and **trajectory optimization** algorithms for complex parking environments.
+- **Control Systems**: Developing robust **motion control** strategies to ensure **stability, passenger comfort, and collision-free operation**.
+- **SLAM Expertise**: Applying **Visual SLAM and LiDAR SLAM** for **enhanced vehicle localization and environment mapping**.
+- **Multi-Sensor Fusion**: Integrating **LiDAR, cameras, IMUs, and other sensors** to enhance environmental understanding and system performance.
+- **System Integration**: Collaborating with multidisciplinary teams to integrate **motion planning modules** with **perception, localization, and sensor technologies**.
+- **Research & Development**: Innovating with **machine learning**, **model predictive control (MPC)**, and other advanced methodologies to **improve system efficiency and reliability**.
+- **Testing & Validation**: Leading **simulation and real-world testing** processes to validate system functionality and ensure safety in diverse parking scenarios.
 
-**Markdown generator**
+By combining expertise in **motion planning, SLAM, and sensor fusion**, I aim to **advance autonomous driving solutions**, focusing on **seamless, efficient, and reliable parking systems**.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+For more details about my work and publications, explore my site or visit my [Google Scholar](https://scholar.google.com/) profile.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
