@@ -1,30 +1,35 @@
 ---
-title: "Learning Type-2 Fuzzy Logic for Factor Graph-Based Robust Pose Estimation with Multi-Sensor Fusion"
+title: "Learning Observation Model for Factor Graph-Based State Estimation Using Intrinsic Sensors"
 collection: publications
 category: articles
-permalink: /publication/2024-02-17-learning-type2-fuzzy-logic
-excerpt: 'This paper presents a novel approach using type-2 fuzzy logic in factor graph optimization for robust multi-sensor fusion-based pose estimation.'
-date: 2024-02-17
-venue: 'IEEE Transactions on Intelligent Transportation Systems (Volume: 24, Issue: 4, April 2023)'
-paperurl: 'https://doi.org/10.1109/TITS.2023.3234595'
-citation: 'Dinh Van Nam, (2023). "Learning Type-2 Fuzzy Logic for Factor Graph-Based Robust Pose Estimation with Multi-Sensor Fusion." <i>IEEE Transactions on Intelligent Transportation Systems</i>, 24(4), pp. 3809-3821, DOI: 10.1109/TITS.2023.3234595.' 
+permalink: /publication/2023-07-28-learning-observation-model
+excerpt: 'This paper presents a robust state estimation system for holonomic mobile robots using intrinsic sensors and adaptive factor graph optimization.'
+date: 2023-07-28
+venue: 'IEEE Transactions on Automation Science and Engineering (Volume: 20, Issue: 3, July 2023)'
+paperurl: 'https://doi.org/10.1109/TASE.2022.3193411'
+citation: 'Dinh Van Nam, (2023). "Learning Observation Model for Factor Graph-Based State Estimation Using Intrinsic Sensors." <i>IEEE Transactions on Automation Science and Engineering</i>, 20(3), pp. 2049-2062, DOI: 10.1109/TASE.2022.3193411.' 
 issn: 'ISSN Information: IEEE'
 publisher: 'IEEE'
-date_of_publication: '31 January 2023'
-pages: '3809 - 3821'
+date_of_publication: '28 July 2022'
+pages: '2049 - 2062'
 ---
 
 ### Abstract
-Although a wide variety of high-performance state estimation techniques have been introduced recently, the robustness and extension to actual conditions of the estimation systems have been challenging. This paper presents a robust adaptive state estimation framework based on the **Type-2 fuzzy inference system (FIS)** and **factor graph optimization** for autonomous mobile robots. 
+The navigation system of autonomous mobile robots has appeared challenging when using **exteroceptive sensors** such as **cameras, LiDARs, and radars** in **textureless and structureless environments**. This paper presents a **robust state estimation system** for **holonomic mobile robots** using **intrinsic sensors**, leveraging **adaptive factor graph optimization** to handle **degradation scenarios**.
 
-We use a **hybrid solution** to connect the advantages of both **tightly and loosely coupled techniques** by incorporating an **inertial sensor** with other extrinsic sensors such as **LiDARs and cameras**. To tackle **uncertain input covariance** and **sensor failure issues**, we introduce a **learnable observation model** that integrates **Type-2 FIS** with **factor graph optimization**. In particular, the **Type-2 Takagi-Sugeno FIS** is used to model uncertainty via **particle swarm optimization (PSO)** before incorporating the observation model into the **factor graph**.
+In particular, **neural networks** are employed to learn the **observation and noise model** using only **IMU sensor and wheel encoder data**. Investigating the **learning model** for the **holonomic mobile robot** is discussed with various **neural network architectures**. We explore how **lightweight neural networks** provide better efficiency and lower computational cost compared to **deep learning models** while relying solely on **inertial-wheel encoder sensors**.
 
-The proposed design consists of four key components:
-1. **Sensor odometry**
-2. **Up-sampling**
-3. **FIS-based learning observation model**
-4. **Factor graph-based smoothing**
+To validate our approach, we employ an **industrial holonomic robot platform** equipped with **multiple LiDARs, cameras, IMU, and wheel encoders** to conduct real-world experiments. Ground truth data is collected **without using a bulky motion capture system**. The collected datasets are used to train the **neural networks**, and our solution demonstrates **better accuracy and real-time performance** than conventional methods.
 
-We evaluate our system using a **mobile robot platform** equipped with multiple **stereo cameras, an IMU, and a LiDAR sensor**. To **learn the observation model** of visual-inertial estimators, we simulate **LiDAR odometry in structured environments** without the need for bulky **motion capture systems**. Experimental results conducted in **real-world environments** demonstrate the **accuracy and robustness** of the proposed algorithm.
+### Note to Practitioners
+Autonomous mobile robots must operate in **challenging environments** where **extrinsic sensors** such as **cameras, LiDARs, and radars** are unreliable. In such cases, the navigation system must depend on **intrinsic sensors** like **IMU sensors and wheel encoders**.
 
-For further details, refer to the full paper linked above.
+Existing methods primarily rely on **recursive Bayesian filtering techniques**, which **do not adapt** to varying conditions. Meanwhile, **deep learning solutions**, such as **LSTMs or CNNs**, require extensive computational resources. This work presents a **state estimation subsystem** for **holonomic mobile robots**, integrating **intrinsic sensors** with **adaptive factor graph optimization**.
+
+Key contributions:
+- **Efficiently incorporating factor graphs** with **learning-based observation models** using **IMU and wheel encoder factors**.
+- **Leveraging neural networks** to train observation models based on **intrinsic sensor data**.
+- **Demonstrating that lightweight neural networks** can outperform deep learning techniques in **state estimation accuracy and computational efficiency**.
+- **Embedding the trained neural network** into a **factor graph** for **real-time smoothing state estimation**.
+
+The proposed system delivers **high-accuracy real-time state estimation**, making it well-suited for **autonomous navigation** in environments where extrinsic sensors are unreliable.
