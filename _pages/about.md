@@ -10,7 +10,7 @@ redirect_from:
 
 ---
 
-This is the front page of my personal academic website. I am a researcher specializing in Robotics, SLAM, and Motion Planning, currently working as the **Lead of Motion Planning Control** at **VinAI**. You can visit my professional page [here](https://sites.google.com/view/dinhnam).
+This is the front page of my personal engineer and academic website. I am an engineer and researcher specializing in Robotics, SLAM, and Motion Planning, currently working as the **Lead of Motion Planning Control** at **VinAI**. You can visit my professional page [here](https://sites.google.com/view/dinhnam).
 
 # About Me
 
