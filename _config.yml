@@ -13,9 +13,9 @@ title                    : "Van-Nam Dinh"
 title_separator          : "-"
 name                     : &title
 description              : &description "personal description"
-url                      : https://namdinhrobotics.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://duynamrcv.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "namdinhrobotics/namdinhrobotics.github.io"
+repository               : "duynamrcv/duynamrcv.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -23,34 +23,34 @@ repository               : "namdinhrobotics/namdinhrobotics.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Van-Nam Dinh"
+  name             : "Duy-Nam Bui"
   pronouns         : "🇻🇳 he/his"
-  bio              : "Ph.D. in Control and Robot Engineering - Senior Robotics Engineer"
+  bio              : "M.Sc. in Electronics Engineering - Robotics Engineer"
   location         : "Hanoi, Vietnam"
-  employer         : "Vinh University", "VinAI Reseach"
+  employer         : "Vietnam National University"
   uri              : # URL
-  email            : "quangnam.auto.tech@gmail.com" 
+  email            : "duynam.robotics@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.co.kr/citations?user=L6ds-ZcAAAAJ&hl"
+  googlescholar    : "https://scholar.google.com/citations?user=J7zS4_0AAAAJ"
   impactstory      : # URL
-  orcid            : "https://orcid.org/0000-0002-3453-8875"
+  orcid            : "http://orcid.org/0009-0001-0837-4360"
   semantic         : # URL
   pubmed           : # URL
-  researchgate     : "https://www.researchgate.net/profile/Nam_Dinh7"
+  researchgate     : "https://www.researchgate.net/profile/Duy-Nam-Bui-2"
   scopus           : # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "NamDinhRobotics"
+  github           : "duynamrcv"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : # "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -59,7 +59,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "dinhnambkhn"
+  linkedin         : "buiduynam"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -72,14 +72,14 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : "MrDinhnam123"
+  youtube          : "buiduynam"
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
     title: 'Books'
-  manuscripts:
+  articles:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
