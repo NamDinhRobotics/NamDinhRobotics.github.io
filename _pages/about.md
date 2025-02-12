@@ -86,33 +86,33 @@ For more details about my work and publications, explore my site or visit my [Go
 - Researched **low- and high-level control system frameworks**.
 - Developed an **MPC controller for lateral and longitudinal control** and **deep learning-based steering control**.
 
-### Visual Inertial Navigation System (VINS) for MAV (2020 - Present)
+### Visual Inertial Navigation System (VINS) for MAV (2020 - 2022)
 
 - Developed a lightweight **VINS algorithm** for robust state estimation.
 - Utilized **stereo camera and IMU** for dynamic indoor environments.
 
-### Multi-LiDAR Calibration for UGV (2020 - Present)
+### Multi-LiDAR Calibration for UGV (2020 - 2022)
 
 - Proposed an **automatic calibration framework** for multiple LiDARs.
 - Utilized **line feature-based optimization and fuzzy inference system-aware robust adaptive covariance**.
 
-### All-Round Driving 7-Ton AGV (Korean Government 2018-2021)
+### All-Round Driving 7-Ton AGV (Korean Government 2018-2022)
 
 - Worked with **Han Sung Well-Tech Co., Ltd** and **Power AGV companies**.
 - Developed **SLAM capabilities** using multiple LiDARs, **multi-stereo vision, and IMU sensors**.
 
-### Omnidirectional Visual-Inertial SLAM (2021 - Present)
+### Omnidirectional Visual-Inertial SLAM (2021 - 2023)
 
 - Developed a **low-cost SLAM system** using an **omnidirectional camera and low-cost IMU**.
 - Achieved **LiDAR-SLAM-level accuracy at a fraction of the cost**.
 
-### Multiple Visual-LiDAR-Inertial SLAM for Industrial Robots (2021 - Present)
+### Multiple Visual-LiDAR-Inertial SLAM for Industrial Robots (2021 - 2022)
 
 - Proposed a **hybrid LiDAR-centric SLAM architecture**.
 - Integrated **multiple LiDARs, multi-stereo cameras, and an IMU**.
 - Ensured **high-speed operation and superior performance** over previous SLAM systems.
 
-### Robot Navigation System for Agricultural Robots (2022 - Present)
+### Robot Navigation System for Agricultural Robots (2022 - 2024)
 
 - Developed a **low-cost navigation system** using **Ublox GPS, 6-DoF IMU, and a monocular camera**.
 - Implemented an **adaptive Kalman filter for high-accuracy localization**.
@@ -121,11 +121,13 @@ For more details about my work and publications, explore my site or visit my [Go
 
 - Developed a **visual-inertial-wheel SLAM system** using **only cameras, IMUs, and wheel odometers**.
 - Implemented **fast motion planning and optimal control** for integration into **Linux-based systems**.
+- Our product, “Fully Automatic Parking Assist,” at VinAI Research has won the Smart Parking Innovation of the Year award at [Autotech Breakthrough Award 2024](https://autotechbreakthrough.com/2024-winners/).
 
 ### 3D Autonomy Navigation and *Exploration* toward Uneven Terrains (2024 - Present)
 
 - Led research on an **affordable, scalable autonomous car-like robot**.
-- Developed **Visual-inertial-LiDAR SLAM, fast exploration motion planning, and high-accuracy 3D localization & mapping**.
+- Developed **Visual-inertial-3D LiDAR SLAM, fast exploration motion planning, and high-accuracy 3D localization & mapping**.
 - Advanced **perception and control techniques** for autonomous navigation.
+- Expend to urban 3D reconstruction and monitoring system using swarm UGV án UAV decentralization
 - [Watch Video](https://youtube.com/shorts/lfxtb6E9Zx0?si=7Fbp6vOOAHdWkSjM)
 - [View Slide](https://www.canva.com/design/DAGcIi4fgcs/YOa-LTS-SVAfTU2JJwCmCg/edit?utm_content=DAGcIi4fgcs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
