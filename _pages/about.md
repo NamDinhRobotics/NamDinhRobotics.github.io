@@ -1,7 +1,7 @@
 ---
 
 permalink: /
-title: "Van-Nam Dinh - Senior Robotics Engineer and Researcher"
+title: "Van-Nam Dinh - Real-Time Autonomy Robotics Researcher"
 author\_profile: true
 redirect\_from:
 
