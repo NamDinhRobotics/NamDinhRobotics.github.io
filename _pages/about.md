@@ -71,7 +71,7 @@ At **VinAI**, I specialize in developing and implementing advanced algorithms fo
 
 By combining expertise in **motion planning, SLAM, and sensor fusion**, I aim to **advance autonomous driving solutions**, focusing on **seamless, efficient, and reliable parking systems**.
 
-For more details about my work and publications, explore my site or visit my [Google Scholar](https://scholar.google.com/) profile.
+For more details about my work and publications, explore my site or visit my [Google Scholar](https://scholar.google.co.kr/citations?user=L6ds-ZcAAAAJ&hl) profile.
 
 # Working Experiments
 
